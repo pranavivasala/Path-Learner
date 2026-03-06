@@ -1,6 +1,8 @@
 
 # AI-Powered Personalized Learning Platform 🚀
 
+**Created by Pranavi Vasala**
+
 [](https://www.python.org/) [](https://streamlit.io) [](https://www.sqlite.org/index.html) [](https://ai.google.dev/)
 
 A full-stack web application that generates personalized, day-by-day learning plans with secure user accounts, interactive progress tracking, and an admin dashboard.

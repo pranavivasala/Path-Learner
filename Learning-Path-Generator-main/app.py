@@ -7,7 +7,6 @@ import database as db
 import pandas as pd
 import re
 import plotly.graph_objects as go
-front
 # --- Initial Setup ---
 load_dotenv()
 st.set_page_config(page_title="AI Learning Path Generator", page_icon="🚀", layout="wide")
