@@ -1,101 +1,110 @@
+# 🤖 AI Learning Path Generator
 
-# AI-Powered Personalized Learning Platform 🚀
+Hey there! 👋
+Welcome to the **AI Learning Path Generator** — a simple yet powerful web app built to help you learn AI in a structured, stress-free way.
 
-**Created by Pranavi Vasala**
+This project is designed for anyone who feels overwhelmed by *what to learn, where to start, and how to stay consistent*. Instead of jumping between random resources, this app creates a **clear, personalized roadmap** just for you.
 
-[](https://www.python.org/) [](https://streamlit.io) [](https://www.sqlite.org/index.html) [](https://ai.google.dev/)
+---
 
-A full-stack web application that generates personalized, day-by-day learning plans with secure user accounts, interactive progress tracking, and an admin dashboard.
+## 🌟 What This Project Does
 
-## Features
+The AI Learning Path Generator helps you:
 
-This application has evolved from a simple generator into a feature-rich learning platform:
+✨ Create a **custom learning journey** based on your goals
+✨ Get **curated resources** (videos, articles, tools)
+✨ Follow a **day-by-day learning plan**
+✨ Track your progress and stay consistent
+✨ Save your learning data and come back anytime
 
-  **🤖 AI-Powered Path Generation:** Integrates the **Google Gemini API** to generate high-quality, day-by-day learning plans for any topic.
-  
-  **🔐 Secure User Authentication:**
-      * Full user registration and login system.
-      * Passwords securely hashed using **bcrypt**.
-      * Password strength validation (length, numbers, special characters).
-      * A multi-step "Forgot Password" flow using a secret question.
-  
-    ** 🗃️ Database Integration:** Uses **SQLite** to persistently store all user data, saved learning paths, task progress, and user feedback.
-    
-    **📊 Interactive Progress Tracking:**
-      * Users can mark individual tasks as complete using interactive checkboxes.
-      * Progress is saved instantly and visualized with dynamic **Plotly** gauge charts for each learning plan.
-      
-   **🗓️ Extensible Long-Term Plans:** Intelligently generates long-term plans (e.g., 90+ days) in manageable 7-day chunks, which users can extend on demand.
-   
-   **👍 User Feedback System:** Allows users to rate each generated path as helpful or not helpful.
-   
-   **👑 Admin Dashboard:** A password-protected admin view to see all user feedback in one place.
+---
 
-## Technology Stack
+## 🔐 User Accounts & Personalization
 
-  * **Core Framework:** [Python](https://www.python.org/), [Streamlit](https://streamlit.io/)
-  * **Database:** [SQLite](https://www.sqlite.org/index.html)
-  * **AI Model:** [Google Gemini API](https://ai.google.dev/)
-  * **Key Libraries:**
-      * `bcrypt` for password hashing
-      * `pandas` for data display in the admin dashboard
-      * `plotly` for data visualization and progress charts
+Every user gets their own space.
 
-## Setup and Local Installation
+* Secure login/signup system
+* Personalized dashboards
+* Your progress is saved automatically
+* Resume learning anytime without losing data
 
-Follow these steps to run the project on your local machine.
+It feels like your own AI mentor keeping track of your journey.
 
-### 1. Prerequisites
+---
 
-  * Python 3.9 or higher
-  * A Google Gemini API Key from [Google AI Studio](https://aistudio.google.com).
+## 🧠 Smart Learning Paths
 
-### 2. Clone the Repository
+Once you enter your goal (like *AI basics*, *Machine Learning*, *Deep Learning*, etc.), the app:
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-```
+* Breaks it into **manageable daily tasks**
+* Suggests **high-quality resources**
+* Organizes everything into a **clear roadmap**
 
-## 3. Create a Virtual Environment
+No more confusion. Just follow the path step by step.
 
-```bash
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+---
 
-# For Windows
-python -m venv venv
-.\venv\Scripts\activate
-```
+## 📅 Day-by-Day Learning Experience
 
-## 4. Install Dependencies
+Instead of overwhelming you with everything at once, the app gives you:
 
-Ensure your `requirements.txt` file contains the following, then run the install command.
+* Daily learning goals
+* Structured progression
+* Easy-to-follow steps
 
-**`requirements.txt`:**
+This makes learning feel achievable and consistent.
 
-```txt
-streamlit
-google-generativeai
-python-dotenv
-bcrypt
-pandas
-plotly
-```
+---
 
-**Installation Command:**
+## 💾 Save & Track Your Progress
 
-```bash
-pip install -r requirements.txt
-```
+Your journey matters.
 
-## 5. Set Up Environment Variables
+* Save completed tasks
+* Track what you've learned
+* Continue from where you left off
 
-Create a file named `.env` in the root of your project directory and add your secret keys:
+Learning becomes a habit, not a one-time effort.
 
-```
-GEMINI_API_KEY="YOUR_API_KEY_HERE"
-ADMIN_PASSWORD="YOUR_CHOSEN_ADMIN_PASSWORD"
-```
+---
 
+## 🛠️ Tech Stack
+
+Built with simplicity and functionality in mind:
+
+* **Frontend & Backend:** Streamlit
+* **Language:** Python
+* **Data Handling:** Session state / database (based on implementation)
+
+---
+
+## 🎯 Why This Project?
+
+Learning AI can feel chaotic. This project solves that by:
+
+* Giving **clarity instead of confusion**
+* Providing **structure instead of randomness**
+* Helping you stay **consistent and motivated**
+
+---
+
+## 🚀 Future Improvements
+
+Some ideas to make this even better:
+
+* AI-based adaptive learning paths
+* Progress analytics & insights
+* Community features
+* Gamification (badges, streaks)
+
+---
+
+## ❤️ Final Note
+
+This project isn’t just about code — it’s about making learning easier, smarter, and more enjoyable.
+
+If you’ve ever felt lost while learning AI, this tool is here to guide you step by step.
+
+---
+
+⭐ *Feel free to explore, use, and improve this project!*
